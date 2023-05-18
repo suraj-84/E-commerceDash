@@ -5,6 +5,7 @@ import Nav from "./Components/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SignUp from "./Components/SignUp";
 import PrivateCompent from "./Components/PrivateCompent";
+import Login from "./Components/Login";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/profile" element={<h1> profile product listing </h1>} />
           </Route>
           <Route path="/signup" element={<SignUp/>} />
+          <Route path="/login" element={<Login/>} />
 
         </Routes>
       </BrowserRouter>

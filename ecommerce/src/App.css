@@ -29,6 +29,20 @@
 .register{
   margin-left: 30%;
 }
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 40%;
+  margin-top: 15px;
+  margin-left: 20px;
+}
 .btn{
   margin: 25px;
   padding: 10px;
