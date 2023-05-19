@@ -29,6 +29,19 @@
 .register, .product{
   margin-left: 30%;
 }
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
 .invalid-input{
   color: #f30303;
   margin-top: -20px;
@@ -48,6 +61,13 @@
   border-radius: 40%;
   margin-top: 15px;
   margin-left: 20px;
+}
+.search-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid red;
+  padding-left: 20px;
 }
 .btn{
   margin: 25px;

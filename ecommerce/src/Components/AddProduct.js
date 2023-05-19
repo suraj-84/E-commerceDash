@@ -27,7 +27,7 @@ const AddProduct = () => {
   };
   return (
     <div className="product ">
-      <h1> AddProduct</h1>
+      <h1> Add Product</h1>
       <input
         type="text"
         placeholder="Enter product name"
