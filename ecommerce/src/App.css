@@ -29,6 +29,12 @@
 .register, .product{
   margin-left: 30%;
 }
+.invalid-input{
+  color: #f30303;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
 .login{
   margin-left: 30%;
   margin-top: 100px;

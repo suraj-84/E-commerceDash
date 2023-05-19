@@ -31,6 +31,16 @@ app.post('/add-product', async (request,response) =>{
   let result = await product.save();
   response.send(result)
 })
+
+app.get('/product', async (request,response) =>{
+  let products = await Product.find()
+  if(products.length>0){
+    response.send(products)
+  }else{
+    response.send({result:"no product found"})
+  }
+})
+
 app.listen(5000);
 
 // cors issue in react after hitting the backend ;
